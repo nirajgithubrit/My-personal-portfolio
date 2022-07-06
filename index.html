@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<!-- Designined by Mayur -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title> Responsive Website </title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <!-- Move to up button -->
+  <div class="scroll-button">
+    <a href="#home"><i class="fas fa-arrow-up"></i></a>
+  </div>
+  <!-- navgaition menu -->
+  <nav>
+    <div class="navbar">
+      <div class="logo"><a href="#">Welcome.</a></div>
+      <ul class="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#services">Experties</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <div class="cancel-btn">
+            <i class="fas fa-times"></i>
+          </div>
+      </ul>
+      
+      
+    </div>
+    <div class="menu-btn">
+      <i class="fas fa-bars"></i>
+    </div>
+  </nav>
+
+<!-- Home Section Start -->
+ <section class="home" id="home">
+   <div class="home-content">
+     <div class="text">
+       <div class="text-two">I'm Nirajkumar Satani</div>
+       <div class="text-three">Web Developer</div>
+       <div class="text-four">Ahmedabad, IND</div>
+     </div>
+     <div class="button">
+      <!---- <button>Hire Me</button> -->
+     </div>
+   </div>
+ </section>
+
+<!-- About Section Start -->
+<section class="about" id="about">
+  <div class="content">
+    <div class="title"><span>About Me</span></div>
+  <div class="about-details">
+    <div class="right">
+      <div class="topic">Passionate Developer</div>
+      <p>“Hello, my name is Niraj and curruntly i'm pursuing my Bachelor of engineering in Information Technology. Front-end and Back-end web development calls to all my passion. My speciality includes quickly learning programming languages and new skills, responsive design principles, web optimzation, problem solving. So far i have HTML, CSS, JavaScript, Bootstrap, C, C++, JAVA, SQL, GitHub under my belt. I have started learning Node.JS, React, MongoDB. I understand that you are searching for a new candidate and I believe my qualities would benefit your company’s goal.</p>
+      <div class="button">
+        <a href="Niraj resume.pdf"><button onclick="">Resume</button></a>
+      </div>
+    </div>
+    <div class="left">
+      <img src="xyz.PNG" alt="">
+    </div>
+  </div>
+  </div>
+</section>
+
+<!-- My Skill Section Start -->
+<!-- Section Tag and Other Div will same where we need to put same CSS -->
+<section class="skills" id="skills">
+ <div class="content">
+   <div class="title"><span>My Skills</span></div>
+   <div class="skills-details">
+     <div class="text">
+       <div class="topic">Skills are better than strength</div>
+       <p>A skill is very important factor to get success in any feild and some skills like Public Speaking, Leadership, Flexibility, Problem Solving are root of developing a good personality to improve our self. As you can see that i'm very proficient in these skills.</p>
+       <div class="experience">
+         <div class="num"></div>
+         <div class="exp"><br> </div>
+       </div>
+     </div>
+     <div class="boxes">
+       <div class="box">
+         <div class="topic">Public Speaking</div>
+         <div class="per">85%</div>
+       </div>
+       <div class="box">
+         <div class="topic">Leadership</div>
+         <div class="per">70%</div>
+       </div>
+       <div class="box">
+         <div class="topic">Problem Solving</div>
+         <div class="per">70%</div>
+       </div>
+       <div class="box">
+         <div class="topic">Flexibility</div>
+         <div class="per">80%</div>
+       </div>
+     </div>
+   </div>
+ </div>
+</section>
+
+<!-- My Services Section Start -->
+ <section class="services" id="services">
+   <div class="content">
+     <div class="title"><span>My Experties</span></div>
+     <div class="boxes">
+       <div class="box">
+         <div class="icon">
+           <i class="fas fa-laptop-code"></i>
+       </div>
+       <div class="topic">HTML/CSS/JavaScript</div>
+       <p></p>
+     </div>
+       <div class="box">
+         <div class="icon">
+           <i class="fas fa-database"></i>
+       </div>
+       <div class="topic">SQL</div>
+       <p></p>
+     </div>
+       <div class="box">
+         <div class="icon">
+           <i class="fas fa-cloud"></i>
+       </div>
+       <div class="topic">AWS</div>
+       <p></p>
+     </div>
+       <div class="box">
+         <div class="icon">
+           <i class="fas fa-file-code"></i>
+       </div>
+       <div class="topic">C/C++/JAVA/React</div>
+       <p></p>
+     </div>
+       <div class="box">
+         <div class="icon">
+           <i class="fab fa-github"></i>
+       </div>
+       <div class="topic">GitHub</div>
+       <p></p>
+     </div>
+       <div class="box">
+         <div class="icon">
+           <i class="fas fa-edit"></i>
+       </div>
+       <div class="topic">Adobe Photoshop/Canva</div>
+       <p></p>
+     </div>
+     
+   </div>
+   </div>
+ </section>
+
+<!-- Contact Me section Start -->
+<section class="contact" id="contact">
+  <div class="content">
+    <div class="title"><span>Contact Me</span></div>
+    <div class="text">
+      <div class="topic"></div>
+      <p></p>
+      <div class="media" id="ki">
+        <a href="https://www.linkedin.com/in/niraj-satani-803a82204/"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/nirajgithubrit"><i class="fab fa-github"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+      <button class="open-button" onclick="openForm()">Chat</button>
+      <div class="button" id="myForm">
+        <form action="/action_page.php" class="form-container">
+          <h1>Chat</h1>
+      
+          <label for="msg"><b>Message</b></label>
+          <textarea placeholder="Type message.." name="msg" required></textarea>
+      
+          <button type="submit" class="btn">Send</button>
+          <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+        </form>
+      </div>
+      
+    </div>
+  </div>
+ 
+</section>
+
+<!-- Footer Section Start -->
+<footer>
+  <div class="text">
+    <span> Thank You.</span>
+  </div>
+</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
